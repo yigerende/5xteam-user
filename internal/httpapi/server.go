@@ -13,13 +13,13 @@ import (
 	"sync"
 	"time"
 
-	"chatgpt-space-merge/internal/cpa"
-	"chatgpt-space-merge/internal/mailbridge"
-	"chatgpt-space-merge/internal/model"
-	"chatgpt-space-merge/internal/store"
-	"chatgpt-space-merge/internal/sub2"
-	"chatgpt-space-merge/internal/workflow"
-	"chatgpt-space-merge/webui"
+	"chapt-space-user/internal/cpa"
+	"chapt-space-user/internal/mailbridge"
+	"chapt-space-user/internal/model"
+	"chapt-space-user/internal/store"
+	"chapt-space-user/internal/sub2"
+	"chapt-space-user/internal/workflow"
+	"chapt-space-user/webui"
 )
 
 type Server struct {

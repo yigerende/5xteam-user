@@ -1,4 +1,4 @@
-module chatgpt-space-merge
+module chapt-space-user
 
 go 1.24.0
 

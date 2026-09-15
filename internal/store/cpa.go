@@ -6,7 +6,7 @@ import (
 	"errors"
 	"strings"
 
-	"chatgpt-space-merge/internal/model"
+	"chapt-space-user/internal/model"
 )
 
 func (s *Store) CPASettings() (model.CPASettings, string, error) {

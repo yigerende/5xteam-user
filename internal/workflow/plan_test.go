@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"chatgpt-space-merge/internal/model"
+	"chapt-space-user/internal/model"
 )
 
 func TestParseAccountPlanResponseSelectsJWTAccountAndPlusTrial(t *testing.T) {

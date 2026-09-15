@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"chatgpt-space-merge/internal/model"
+	"chapt-space-user/internal/model"
 )
 
 var ErrStaleCycle = errors.New("账号轮次已变更，忽略上一轮结果")

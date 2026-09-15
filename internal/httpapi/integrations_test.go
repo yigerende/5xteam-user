@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"chatgpt-space-merge/internal/store"
+	"chapt-space-user/internal/store"
 )
 
 func turbIntegrationTestToken(email string) string {

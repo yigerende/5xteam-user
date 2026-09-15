@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"chatgpt-space-merge/internal/model"
+	"chapt-space-user/internal/model"
 )
 
 func TestActiveTeamMembershipPreventsAdminReassignment(t *testing.T) {

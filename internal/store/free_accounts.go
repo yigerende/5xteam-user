@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"chatgpt-space-merge/internal/model"
+	"chapt-space-user/internal/model"
 )
 
 type FreeAccountCredentials struct {

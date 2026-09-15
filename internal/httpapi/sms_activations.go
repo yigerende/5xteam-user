@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"chatgpt-space-merge/internal/herosms"
-	"chatgpt-space-merge/internal/model"
-	"chatgpt-space-merge/internal/store"
+	"chapt-space-user/internal/herosms"
+	"chapt-space-user/internal/model"
+	"chapt-space-user/internal/store"
 )
 
 func (s *Server) heroEvent(email, id, event, message string, err error) {

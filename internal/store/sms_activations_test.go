@@ -1,7 +1,7 @@
 package store
 
 import (
-	"chatgpt-space-merge/internal/herosms"
+	"chapt-space-user/internal/herosms"
 	"strings"
 	"testing"
 	"time"

@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	"chatgpt-space-merge/internal/model"
+	"chapt-space-user/internal/model"
 )
 
 // SaveAdminCapacitySnapshot persists the latest capacity obtained by the

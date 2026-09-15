@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"chatgpt-space-merge/internal/model"
+	"chapt-space-user/internal/model"
 )
 
 func TestStatusOnlyReturnsUpstream401ForRelogin(t *testing.T) {

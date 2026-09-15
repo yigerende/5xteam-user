@@ -13,8 +13,8 @@ export default defineConfig({
     host: '127.0.0.1',
     port: 18121,
     proxy: {
-      '/api': 'http://127.0.0.1:18120',
-      '/health': 'http://127.0.0.1:18120',
+      '/api': 'http://127.0.0.1:18121',
+      '/health': 'http://127.0.0.1:18121',
     },
   },
 })

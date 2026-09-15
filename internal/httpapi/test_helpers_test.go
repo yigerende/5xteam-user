@@ -3,8 +3,8 @@ package httpapi
 import (
 	"testing"
 
-	"chatgpt-space-merge/internal/model"
-	"chatgpt-space-merge/internal/store"
+	"chapt-space-user/internal/model"
+	"chapt-space-user/internal/store"
 )
 
 // saveTestAdmin creates a mother account with the dedicated proxy required by

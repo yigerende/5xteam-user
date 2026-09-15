@@ -12,7 +12,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"chatgpt-space-merge/internal/model"
+	"chapt-space-user/internal/model"
 )
 
 type HistoryStore interface {

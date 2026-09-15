@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"chatgpt-space-merge/internal/model"
+	"chapt-space-user/internal/model"
 )
 
 func mailAccountTextLine(credentials model.MailAccountCredentials, includeAT, includeRT bool) (string, error) {

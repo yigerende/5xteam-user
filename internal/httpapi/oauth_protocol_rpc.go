@@ -9,7 +9,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"chatgpt-space-merge/internal/herosms"
+	"chapt-space-user/internal/herosms"
 )
 
 // One gate coordinates card-pool transactions across all OAuth subprocesses.

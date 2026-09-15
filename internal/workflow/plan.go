@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"chatgpt-space-merge/internal/model"
+	"chapt-space-user/internal/model"
 )
 
 const accountPlanCheckPath = "/accounts/check/v4-2023-04-27"

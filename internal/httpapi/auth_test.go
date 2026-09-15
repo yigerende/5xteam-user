@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"chatgpt-space-merge/internal/store"
-	"chatgpt-space-merge/internal/workflow"
+	"chapt-space-user/internal/store"
+	"chapt-space-user/internal/workflow"
 )
 
 func TestLoginProtectsAPIAndDefaultAdminCanLogin(t *testing.T) {

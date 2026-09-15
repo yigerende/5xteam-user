@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"chatgpt-space-merge/internal/model"
+	"chapt-space-user/internal/model"
 )
 
 func normalizeProSettings(v *model.ProSettings) {

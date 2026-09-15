@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"chatgpt-space-merge/internal/model"
-	"chatgpt-space-merge/internal/store"
+	"chapt-space-user/internal/model"
+	"chapt-space-user/internal/store"
 )
 
 func TestRedactMailPayloadRemovesSecretsRecursively(t *testing.T) {

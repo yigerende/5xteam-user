@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"chatgpt-space-merge/internal/store"
+	"chapt-space-user/internal/store"
 )
 
 func TestParsePaginationAllowsConfiguredSizes(t *testing.T) {
