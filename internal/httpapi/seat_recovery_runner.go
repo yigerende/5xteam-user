@@ -9,6 +9,7 @@ import (
 	"time"
 
 	"chapt-space-user/internal/model"
+	"chapt-space-user/internal/store"
 	"chapt-space-user/internal/workflow"
 )
 
@@ -353,7 +354,7 @@ func (s *Server) executeSeatRecoveryStep(ctx context.Context, p *model.SeatRecov
 		if !p.Lane {
 			_, err = s.store.UpdateSeatRecoveryTask(p.ID, func(v *model.SeatRecoveryTask) { v.Lane = true })
 			if err != nil {
-				if strings.Contains(err.Error(), "UNIQUE constraint") {
+				if strings.Contains(err.Error(), "UNIQUE constraint") || errors.Is(err, store.ErrStandardSeatBusy) {
 					return s.recoveryWait(p, "等待上一子号释放普通席位并完成间隔", 5)
 				}
 				return err
